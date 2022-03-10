@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hawkout</string>
+    <string name="main_start">운동 시작</string>
+    <string name="main_repmax">1-Rep Max 계산</string>
+    <string name="cal_weight">무게 (kg or lbs)</string>
+    <string name="cal_rep">횟수</string>
+    <string name="rm_type_1">Brzycki</string>
+    <string name="rm_type_2">Epley</string>
+    <string name="cal_rm_100_text">1-Rep Max</string>
+    <string name="cal_estimation">추정 방식</string>
+    <string name="cal_percent_95">95% 1RM</string>
+    <string name="cal_strength">근력 증가</string>
+    <string name="cal_hypertrophy">근비대 향상</string>
+    <string name="cal_endurance">근지구력 강화</string>
+    <string name="cal_percent_95_rep">2-3</string>
+    <string name="cal_percent_90">90% 1RM</string>
+    <string name="cal_percent_90_rep">5</string>
+</resources>

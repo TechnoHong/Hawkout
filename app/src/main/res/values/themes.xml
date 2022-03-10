@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hawkout" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="title_textview" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:fontFamily">@font/nanummyeongjo_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="base_constraint_layout">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:padding">@dimen/base_layout_padding</item>
+    </style>
+
+    <style name="neumorph_btn" parent="Widget.Neumorph.CardView">
+        <item name="neumorph_shadowColorLight">@color/shadowColorLight</item>
+        <item name="neumorph_shadowColorDark">@color/shadowColorDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/nanummyeongjo_regular</item>
+    </style>
+
+    <style name="neumorph_imagebtn" parent="Widget.Neumorph.ImageButton">
+        <item name="neumorph_shadowColorLight">@color/shadowColorLight</item>
+        <item name="neumorph_shadowColorDark">@color/shadowColorDark</item>
+        <item name="android:layout_height">@dimen/neumorph_image_btn</item>
+        <item name="android:layout_width">@dimen/neumorph_image_btn</item>
+    </style>
+
+    <style name="cal_textfield" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/primaryTextColor</item>
+        <item name="hintTextColor">@color/primaryTextColor</item>
+        <item name="boxStrokeColor">@color/secondaryColor</item>
+        <item name="boxBackgroundColor">@color/primaryLightColor</item>
+    </style>
+
+    <style name="cal_small_text" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/nanummyeongjo_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/sub_text_size</item>
+    </style>
+</resources>

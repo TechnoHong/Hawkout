@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    style="@style/base_constraint_layout">
+
+    <TextView
+        android:id="@+id/main_app_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/main_horizontal_guideline"
+        android:fontFamily="@font/nanummyeongjo_extrabold"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/main_vertical_guideline"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/main_horizontal_guideline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/main_start_btn"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="@string/main_start"
+        style="@style/neumorph_btn"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintTop_toBottomOf="@id/main_app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/main_vertical_guideline">
+    </soup.neumorphism.NeumorphButton>
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/main_calculator_btn"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="@string/main_repmax"
+        style="@style/neumorph_btn"
+        android:layout_marginStart="15dp"
+        app:layout_constraintTop_toBottomOf="@id/main_app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/main_vertical_guideline"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hawkout</string>
+    <string name="main_start">START WORKOUT</string>
+    <string name="main_repmax">1-Rep Max Calculator</string>
+    <string name="cal_weight">weight (kg or lbs)</string>
+    <string name="cal_rep">Rep</string>
+    
+    <string name="rm_type_1">Brzycki</string>
+    <string name="rm_type_2">Epley</string>
+    <string name="cal_rm_100_text">1-Rep Max</string>
+    <string name="cal_estimation">Estimation Method</string>
+    <string name="cal_percent_95">95% 1RM</string>
+    <string name="cal_strength">STRENGTH</string>
+    <string name="cal_hypertrophy">HYPERTROPHY</string>
+    <string name="cal_endurance">ENDURANCE</string>
+    <string name="cal_percent_95_rep">2-3</string>
+    <string name="cal_percent_90">90% 1RM</string>
+    <string name="cal_percent_90_rep">5</string>
+
+</resources>
