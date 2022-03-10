@@ -9,12 +9,28 @@
     <string name="rm_type_2">Epley</string>
     <string name="cal_rm_100_text">1-Rep Max</string>
     <string name="cal_estimation">Estimation Method</string>
-    <string name="cal_percent_95">95% 1RM</string>
+
     <string name="cal_strength">STRENGTH</string>
     <string name="cal_hypertrophy">HYPERTROPHY</string>
     <string name="cal_endurance">ENDURANCE</string>
-    <string name="cal_percent_95_rep">2-3</string>
+
+    <string name="cal_percent_95">95% 1RM</string>
+    <string name="cal_percent_95_rep">2–3</string>
     <string name="cal_percent_90">90% 1RM</string>
     <string name="cal_percent_90_rep">5</string>
+    <string name="cal_percent_85">85% 1RM</string>
+    <string name="cal_percent_85_rep">6</string>
+    <string name="cal_percent_80">80% 1RM</string>
+    <string name="cal_percent_80_rep">8</string>
+    <string name="cal_percent_75">75% 1RM</string>
+    <string name="cal_percent_75_rep">10</string>
+    <string name="cal_percent_70">70% 1RM</string>
+    <string name="cal_percent_70_rep">12</string>
+    <string name="cal_percent_65">65% 1RM</string>
+    <string name="cal_percent_65_rep">14–15</string>
+    <string name="cal_percent_60">60% 1RM</string>
+    <string name="cal_percent_60_rep">16–18</string>
+    <string name="cal_percent_50">50% 1RM</string>
+    <string name="cal_percent_50_rep">20+</string>
 
 </resources>

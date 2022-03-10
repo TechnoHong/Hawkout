@@ -231,6 +231,212 @@
                 app:layout_constraintTop_toTopOf="@id/cal_90_title"
                 android:textColor="@color/primaryColorLight1"/>
 
+            <TextView
+                android:id="@+id/cal_hypertrophy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/cal_small_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_90_title"
+                android:layout_marginTop="15dp"
+                android:text="@string/cal_hypertrophy"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_85_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_hypertrophy_text"
+                android:text="@string/cal_percent_85"
+                style="@style/cal_small_text"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primaryColorLight2"
+                />
+
+            <TextView
+                android:id="@+id/cal_85_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_85_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_85_rep"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_85"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_85_title"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_80_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_85_title"
+                android:text="@string/cal_percent_80"
+                style="@style/cal_small_text"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primaryColorLight2"
+                />
+
+            <TextView
+                android:id="@+id/cal_80_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_80_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_80_rep"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_80"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_80_title"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_75_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_80_title"
+                android:text="@string/cal_percent_75"
+                style="@style/cal_small_text"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primaryColorLight2"
+                />
+
+            <TextView
+                android:id="@+id/cal_75_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_75_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_75_rep"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_75"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_75_title"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_70_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_75_title"
+                android:text="@string/cal_percent_70"
+                style="@style/cal_small_text"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primaryColorLight2"
+                />
+
+            <TextView
+                android:id="@+id/cal_70_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_70_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_70_rep"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_70"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_70_title"
+                android:textColor="@color/primaryColorLight2"/>
+
+            <TextView
+                android:id="@+id/cal_endurance_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/cal_small_text"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_70_title"
+                android:layout_marginTop="15dp"
+                android:text="@string/cal_endurance"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_65_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_endurance_text"
+                android:text="@string/cal_percent_65"
+                style="@style/cal_small_text"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primaryColorLight3"
+                />
+
+            <TextView
+                android:id="@+id/cal_65_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_65_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_65_rep"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_65"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_65_title"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_60_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_65_title"
+                android:text="@string/cal_percent_60"
+                style="@style/cal_small_text"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primaryColorLight3"
+                />
+
+            <TextView
+                android:id="@+id/cal_60_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_60_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_60_rep"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_60"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_60_title"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_50_title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cal_60_title"
+                android:text="@string/cal_percent_50"
+                style="@style/cal_small_text"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primaryColorLight3"
+                />
+
+            <TextView
+                android:id="@+id/cal_50_rep"
+                style="@style/cal_small_text"
+                app:layout_constraintTop_toTopOf="@id/cal_50_title"
+                app:layout_constraintEnd_toStartOf="@id/cal_guideline2"
+                android:text="@string/cal_percent_50_rep"
+                android:textColor="@color/primaryColorLight3"/>
+
+            <TextView
+                android:id="@+id/cal_50"
+                style="@style/cal_small_text"
+                android:text="@string/app_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cal_50_title"
+                android:textColor="@color/primaryColorLight3"/>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
