@@ -7,6 +7,7 @@
     <string name="cal_rep">횟수</string>
     <string name="rm_type_1">Brzycki</string>
     <string name="rm_type_2">Epley</string>
+    <string name="rm_type_3">McGlothin</string>
     <string name="cal_rm_100_text">1-Rep Max</string>
     <string name="cal_estimation">추정 방식</string>
 
@@ -32,4 +33,6 @@
     <string name="cal_percent_60_rep">16–18</string>
     <string name="cal_percent_50">50% 1RM</string>
     <string name="cal_percent_50_rep">20+</string>
+
+    <string name="weight">무게</string>
 </resources>
