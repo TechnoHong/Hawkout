@@ -35,4 +35,6 @@
     <string name="cal_percent_50_rep">20+</string>
 
     <string name="weight">무게</string>
+
+    <string name="notyet">개발 예정 (아마도)</string>
 </resources>
